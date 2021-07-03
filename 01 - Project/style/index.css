@@ -1,0 +1,17 @@
+:root  {
+    --main_color: #FFF5A8
+}
+
+* {
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-size: 16rem;
+}
