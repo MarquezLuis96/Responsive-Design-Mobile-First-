@@ -97,3 +97,27 @@ header .logo {
     background-image: url("../assets/icons/down-arrow.svg");
     background-repeat: no-repeat;
 }
+
+main {
+    width: 100%;
+    height: auto;
+    background-color: var(--off-white);
+}
+
+.main-exchange-container {
+    width: 100%;
+    min-width: 320px;
+    height: auto;
+    padding-top: 80px;
+    padding-bottom: 30px;
+    text-align: center;
+}
+
+.main-exchange-container-title {
+    width: 90%;
+    min-width: 288px;
+    max-width: 500px;
+    margin: 0 auto;
+    height: auto;
+}
+
