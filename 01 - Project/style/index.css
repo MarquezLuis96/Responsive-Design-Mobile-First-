@@ -146,7 +146,7 @@ main {
     font-weight: 500;
     line-height: 1.8rem;
     color: #757575;
-    margin: 50px auto 0;
+    margin: 0 auto;
 }
 
 .main-currency-table {
@@ -239,4 +239,38 @@ main {
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
+}
+
+.currency-table_date {
+    width: 190px;
+    height: 30px;
+    margin: 0 auto;
+    margin-top: 15px;
+    padding: 8px;
+    background-color: var(--soft-orange);
+    border-radius: 8px;
+}
+
+.fees-table_date {
+    width: 190px;
+    height: 30px;
+    margin: 0 auto;
+    margin-top: 15px;
+    padding: 8px;
+    background-color: var(--soft-blue);
+    border-radius: 8px;
+}
+
+.currency-table_date p {
+    font-size: 1.2rem;
+    font-weight: 300;
+    line-height: 1.3rem;
+    color: var(--wara-black);
+}
+
+.fees-table_date p {
+    font-size: 1.2rem;
+    font-weight: 300;
+    line-height: 1.3rem;
+    color: var(--wara-black);
 }
