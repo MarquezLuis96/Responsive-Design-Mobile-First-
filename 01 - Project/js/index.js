@@ -1,0 +1,9 @@
+function fees() {
+    document.getElementById("chtable").innerHTML = '<section class="main-table-container section-container--card"><div class="main-currency-table"><p class="fees-table-title">Comisiones</p><div class="currency-table-container"><table><tr><td class="table__top-left">Bitrade</td><td class="table__top-right table__right">$12.96 <span class=""></span></td></tr><tr><td>Bitpreco</td><td class="table__right">$13.07 <span class=""></span></td></tr><tr><td>Novadax</td><td class="table__right">$13.15 <span class=""></span></td></tr><tr><td class="table__bottom-left">Coinext</td><td class="table__bottom-right table__right">$14.96 <span class=""></span></td></tr></table><div class="fees-table_date"><p><b>Actualizado:</b> 5 de Julio 23:45</p></div></div></div></section>';
+    document.getElementById("chbutton").innerHTML = '<button onclick="cripto()" class="btn-style">Criptos<span></span></button>';
+}
+
+function cripto() {
+    document.getElementById("chtable").innerHTML ='<section class="main-table-container section-container--card" id="chtable"><div class="main-currency-table"><p class="currency-table-title">Monedas</p><div class="currency-table-container"><table><tr><td class="table__top-left">Bitcoin</td><td class="table__top-right table__right">$1.96 <span class="down"></span></td></tr><tr><td>Ethereum</td><td class="table__right">$0.07 <span class="up"></span></td></tr><tr><td>Ripple</td><td class="table__right">$2.17 <span class="down"></span></td></tr><tr><td class="table__bottom-left">Stellar</td><td class="table__bottom-right table__right">$4.96 <span class="up"></span></td></tr></table><div class="currency-table_date"><p><b>Actualizado:</b> 5 de Julio 23:45</p></div></div></div</section>';
+    document.getElementById("chbutton").innerHTML = '<button onclick="fees()" class="btn-style">Fees<span></span></button>';
+}
