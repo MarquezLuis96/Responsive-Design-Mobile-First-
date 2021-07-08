@@ -442,7 +442,7 @@ main {
 .plans-container--slider {
     display: flex;
     flex-direction: row;
-    justify-content: center;
+    /*justify-content: center;*/
     /*gap: 10px;*/
     height: 316px;
     overflow-x: scroll;
